@@ -65,8 +65,14 @@ li:hover{
     background: rgba(0,0,0,0.2);
 }
 
-h1{
-    background: url(/assets/todoLogo.png) no-repeat center;
+/* h1{
+    background: url(/assets/bulbIdea.jpg) no-repeat center;
     margin-bottom: 0;
     text-indent: -10000px;
+} */
+h1 {
+    background-color: #fc3a3a;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
 }
