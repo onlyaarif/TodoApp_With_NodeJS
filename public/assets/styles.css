@@ -1,13 +1,13 @@
 body{
-    background: #0d1521;
+    background: #fc3a3a;
     font-family: tahoma;
-    color: #989898;
+    color: #070707;
 }
 
 #todo-table{
     position: relative;
     width: 95%;
-    background: #090d13;
+    background: #f9f9f9;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ body{
 input[type="text"]{
     width: 70%;
     padding: 20px;
-    background:#181c22;
+    background:#f9f9f9;
     border: 0;
     float: left;
     font-size: 20px;
@@ -31,16 +31,17 @@ input[type="text"]{
 }
 
 button{
+
     padding: 20px;
     width: 30%;
+    background: #fc3a3a;
+    color: #ffffff;
     float: left;
-    background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%);
-    /* background: #014ca5; */
-    border: 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
+
     font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
 }
 
 ul{
